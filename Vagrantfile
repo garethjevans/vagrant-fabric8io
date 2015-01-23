@@ -18,7 +18,7 @@ end
 
 Vagrant.configure("2") do |config|
 	
-	config.vm.box = "jimmidyson/fedora21-atomic"
+	config.vm.box = "hansode/fedora-21-server-x86_64"
 	
 	config.vm.provider "virtualbox" do |v|
     	v.name = "fabric8io-environment"
